@@ -4,6 +4,9 @@
 2. **Start the backend server** using `npm start` or `node src/index.js` command.
 3. **We are using MONGODB CLOUD for database**
 
+## Project Created by
+1. Ashen A 
+2. Karan R
 
 ## HTTP request methods used in the project
 1. GET http://localhost:3000/ → The client will see the “Hello User!” message which is used to verify that application is working properly.
