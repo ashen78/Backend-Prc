@@ -19,6 +19,4 @@
 6. GET http://localhost:3000/something → when the user hit the unwanted route which is not mentioned above (which is used to handle all other requests), they will get an error message like Route not found in JSON format with an 404 error status code.
 
 
-> **Note:** If the wrong ***:id*** is entered in the url, then the client will encounter ```400 Bad Request``` status code indicating that the server cannot or will not process the request due to something that is perceived to be a client error.
 
-> ***app.use()*** is used to handle all the unwanted requests. It will return ```404 Not Found``` status code indicating that the requested resource could not be found but may be available in the future.
