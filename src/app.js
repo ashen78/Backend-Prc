@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Display the written message on the homepage to the client.
 app.get("/", (req, res) => {
-  res.json(" Backend Capstone Project- YouTube Subscribers");
+  res.json(" Backend Capstone Project- YouTube Subscribers (Ashen-Karan");
 });
 
 // 1. Get an array of all subscribers from the database
